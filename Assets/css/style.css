@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-header{
+ display: flex;
+ justify-content: space-between;
+ background-size: cover;
+ background-position: center;
+ background-image: url("../pexels-ann-h-1762851.jpg");
+ height: 300px;
+   width: 100%;
+ }
+
+ ul{
+    list-style-type: none;
+    display: inline-block;
+ }
+ ul li{
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+    
+ }
+
+ .About-Me {
+    display: flex;
+    margin: 100px;
+    text-align: left;
+    background-color: aquamarine;
+    background-size: cover;
+    border: 10px;
+    gap: 2px;
+}
+
+.About-Me :hover{
+    background-color: aqua;
+    box-sizing: border-box;
+    
+    
+}
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+section {
+   padding: 20px;
+}
+
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+}
+
+.project {
+   margin-bottom: 20px;
+}
+
+#Work{
+   background-image: url(/Assets/pexels-ann-h-1762851.jpg);
+   height: 300px;
+   display:block;
+}
